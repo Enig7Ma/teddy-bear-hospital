@@ -29,3 +29,9 @@ asdf list all pnpm
 asdf install pnpm 10.7.1
 asdf global pnpm 10.7.1
 ```
+
+```
+cd backend
+uv add --dev ruff pyright
+uv add pydantic fastapi fastapi-cli
+```
