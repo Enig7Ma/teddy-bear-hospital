@@ -1,6 +1,4 @@
 import { useEffect, useMemo, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 
 function App() {
   const [health, setHealth] = useState<string>("Loading...");
