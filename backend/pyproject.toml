@@ -8,6 +8,7 @@ dependencies = [
     "fastapi>=0.115.12",
     "fastapi-cli>=0.0.7",
     "pydantic>=2.11.3",
+    "python-multipart>=0.0.20",
 ]
 
 [dependency-groups]
