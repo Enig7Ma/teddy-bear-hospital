@@ -1,4 +1,32 @@
-# teddy-bear-hospital
+# Teddy Bear Hospital
+
+## tech stack
+
+backend:
+
+- python 3.12
+- uv: python dependancies management
+- fastapi: backend apis
+
+frontend:
+
+- NODE.js
+- TypeSkript: type checking
+- pnpm: JavaSkript dependancy management
+- vite: project builder
+- react: UI framework
+
+## local developement
+
+install backend dependancies `uv --directory backend sync`
+
+install frontend dependancies `pnpm -C frontend install`
+
+start backend in developement mode `uv --directory backend run fastapi run --port 8000 app/app.py`
+
+start frontend in developement mode `pnpm -C frontend run dev --port 3000`
+
+## run history
 
 https://asdf-vm.com/guide/getting-started-legacy.html
 
