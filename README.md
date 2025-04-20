@@ -5,22 +5,22 @@
 backend:
 
 - python 3.12
-- uv: python dependancies management
+- uv: python dependencies management
 - fastapi: backend apis
 
 frontend:
 
 - NODE.js
-- TypeSkript: type checking
-- pnpm: JavaSkript dependancy management
+- TypeScript: type checking
+- pnpm: JavaScript dependency management
 - vite: project builder
 - react: UI framework
 
 ## local developement
 
-install backend dependancies `uv --directory backend sync`
+install backend dependencies `uv --directory backend sync`
 
-install frontend dependancies `pnpm -C frontend install`
+install frontend dependencies `pnpm -C frontend install`
 
 start backend in developement mode `uv --directory backend run fastapi run --port 8000 app/app.py`
 
